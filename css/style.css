@@ -1,0 +1,113 @@
+/* Navbar Items Properties  */
+/* Navbar*/
+.navbar {
+    background: black;
+    display: flex;
+    align-items: center;
+}
+/* Logo and logo img properties  */
+.logo{
+    width: 3.34%;
+    margin: 5px 7px;
+    /* border: 2px solid purple; */
+    border-radius: 50%;
+    /* height: 40px; */
+    background: white;
+    cursor: pointer;
+}/* Which Is Logo Img Id Which Can only Used With .logo Class  */
+#logo{
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 80%;
+    height: 100%;
+}
+/* NavList: Which Include In list Items Of Navbars */
+.navList {
+    color: white;
+    list-style-type: none;
+    font-size: 1.89rem;
+    display: flex;
+    align-items: center;
+}.navList li a { /*Anchor Tags Of NavList*/
+    margin: 0 7px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 7px;
+}.navList li a:hover {
+    color: rgb(234, 225, 225);
+}
+
+/* HamBurger: Which Is A Part Of Responsiveness */
+.burger{
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    z-index: 100;
+    display: none;
+    cursor: pointer;
+}.line{    
+    width: 49px;
+    height: 4px;
+    background: white;
+    margin: 4.9px 0;
+}
+
+
+/* Home Section Properties  */
+/* That Id Can Be Used In The Img Of Which Is Part Of Home Section  */
+#mainHeader{
+    width: 50%;
+}
+
+/* About Section Properties  */
+/* That Can Be Used In To Fix The Imgs Of The Cards Of The About Sections  */
+.d-relative{
+    display: flex;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}.d-relative .card .img-box{
+    position: absolute;
+    top:-5%;
+    width: 10%;
+    left:-1%;
+}
+
+/* Mentor Sections Properties */
+/* Icons properties Which Set The Social Icons Properly In One Way*/
+.icons{
+    width: 13%;
+    display: inline-block;
+    margin: 5px auto;
+    border: 2px solid var(--main-col);
+    border-radius: 50%;
+}.icons:hover{
+    transform: rotate(180deg);
+    cursor: pointer;
+    background: rgb(172, 164, 172);
+}
+
+/* Contact Section Properties  */
+/* Input Properties  */
+.input{ /*Used To Provides The margin Of The Input box*/
+    margin:  3% auto;
+}.myInput{ /* Controling The Inputs*/
+    padding: 4px 7px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 2px 4px;
+    border: 2px solid var(--main-col);
+    border-radius: 12px;
+    outline: none;
+    width: 90%;
+}
+
+/* Footer Sections Properties */
+#footer{
+    height: 13.89vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

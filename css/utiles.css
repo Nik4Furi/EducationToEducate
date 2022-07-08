@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300&family=Roboto:ital,wght@0,400;0,500;1,500');
+/* CSS Reset  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Root Elements:Which Can Be Used To Create Customs Variables To Reflect Any Where */
+:root{
+    --main-col:purple; /*Primary Color Of Web */
+    --main-bg-col-1:rgb(193, 167, 193);/*Another Primary Color Of Web */
+}
+
+/* Utilities Properties:That All Properties Can Be Used Many Times In Web For Code Resuability */
+/* Container Which Fix Property: Have Width And Margin For Get Items In Center  */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Sections to demonstrate the img and content place  */
+.container-left {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Controling the heading and paragraph contatiner With Help OF Padding And Margins */
+.headPara {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin:  5px;
+}
+
+/* Headings realted properties  */
+.h-primary/* It is used for h1*/ {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}.h-secondry/* It is used for h2*/ {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}.h-ternary /* It is used for h3*/{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+/* Paragraphs realted properties  */
+.para /* It is used for parimary paragraph*/{
+    font-size: 1.22rem;
+    font-weight: 500;
+    font-family: 'Anek Latin', sans-serif;
+}.para-sm/* It is used for small paragraphs*/ {
+    font-size: 1.18rem;
+    font-family: 'Anek Latin', sans-serif;
+}
+/* That Property Specially Used In Which Heading Of Starting The Sections  */
+.h-special{
+    position: relative;
+    padding: 2px 0 0px 0;
+    margin: 7px 0 5px 0;    
+}.h-special::before{
+    content: "____";
+    position: absolute;
+    top: -89%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    color: var(--main-col);
+}
+/* Mark For Used To Marked or Highlight A Particular Word */
+.mark{
+    text-transform:capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(195, 31, 138);
+}
+
+
+/* Width and height related utiles propertieses  */
+.w-40 {
+    width: 40%;
+}.w-50 {
+    width: 50%;
+}.w-60 {
+    width: 60%;
+}
+
+/* Img handling  properties  */
+.img-box {/*That Only For Boxing The Img*/
+    margin: 2px 3px;
+    padding: 3px 4px;
+}.img { /*that Property Can Be Used With That .img-box*/
+    border-radius: 9px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+/* Another Img Handling Property  */
+.img-box-sm{/*That Also For Boxing The Img But Small In Size*/
+    width: 90%;
+    margin: 5px auto;
+    padding: 3px  auto;
+}.img-box-sm-img{/*that Property Can Be Used With That .img-box*/
+    border-radius:50%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+/* Customs backgrounds properties  */
+.main-bg {/*that Property Can Be Used A Custom Backgrounds*/
+    background: rgb(201,209,209);
+    background: linear-gradient(0deg, rgba(201,209,209,1) 0%, rgba(241,241,241,1) 73%, rgba(250,247,246,1) 100%);
+}
+
+
+
+/* Buttons properties  */
+.btn{/* That Use In All Over The Buttons*/
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    background: var(--main-bg-col-1);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 27, 46);
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 4px 7px;
+    margin: 5px 3px;
+}.btn:hover{
+    cursor: pointer;
+    color: white;
+    background: var(--main-col);
+}
+
+/* Text Section Properties */
+/* Text color properties  */
+.col-white{
+    color: white;
+}.col-black{
+    color: black;
+}
+/* Text related properties  */
+.text-center{
+    text-align: center;
+}
+
+/* Creating the margins and paddings properties  */
+.my-2{ 
+    margin-top: 18px;
+    margin-bottom: 7px;
+}.mx-3{
+    margin-left: 3.5%;
+    margin-right: 3%;
+}.m-0{
+    margin: 0;
+}.p-0{ 
+    padding: 0;
+}
+
+
+/* Fixing The Flex-box Property Which Can Had The Row Directions */
+.d-flex-no-change , .d-flex-change{
+    display: flex;
+}
+
+/* Cards Properties  */
+.cards{ /* A Div Of All Cards IN Exists*/
+    display: flex;
+}
+.card{ /* For Big Cards  */
+    width: 30%;
+    background: rgb(236, 228, 228);
+    border-radius: 12px;
+    margin: 3px 9px;
+}.card:hover{
+    cursor: pointer;
+    background: rgb(224, 220, 220);
+}
+.card-sm{/* For Small Cards  */
+    width: 33%;
+    background: rgb(236, 228, 228);
+    border-radius: 12px;
+    margin: 6px 9px;
+    display: inline-block;
+}.card-sm:hover{
+    cursor: pointer;
+    background: rgb(224, 220, 220);
+}

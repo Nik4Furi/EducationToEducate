@@ -1,0 +1,81 @@
+@media only screen and (max-width:828px) {
+
+    /* Navbar & Navbar Items Properties */
+    .navbar {
+        transition: all 0.3s ease-out;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Used To Grow The Height Of The Navabar */
+    .res-navbar {
+        height: 60px;
+    }    
+    .logo {
+        width: 49px;
+    }
+    .navList {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* Used To In Navlist Itmes  */
+    .res-navList {
+        opacity: 0;
+    }
+    .navList li {
+        margin: 11px 5px;
+    }
+    .burger {
+        display: block;
+    }
+    
+    /* Home Section Properties  */
+    /* Used In Mani Header Img Whoose In Home Container */
+    #mainHeader {
+        display: none;
+    }
+
+    /* About Section Properties  */
+    /* Particular Demonstrate To About Container Can Change The Direcation  */
+    .about-container {
+        flex-direction: column;
+    }
+    /* That Replicating The Img Of Our Mentors  */
+    .d-relative {
+        flex-direction: column;
+    }
+    .d-relative .card .img-box {
+        left: 7%;
+    }
+
+    /* Contact Section Properties  */
+    /* Input Container Properties  */
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Utiles Propeerties Which Can be Used Many Times In Our Web  */
+    .d-flex-change {
+        flex-direction: column;
+    }
+    .container-left {
+        flex-direction: column-reverse;
+    }
+    /* We Can Change The Properties Of All Types Of Widths  */
+    .w-40 ,.w-50 ,.w-60 {
+        width: 100%;
+    }
+    /* All Cards Related Properties  */
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card {
+        width: 80%;
+        margin: 23px auto;
+    }
+    .card-sm {
+        width: 50%;
+        margin: 5px auto;
+    }
+}
