@@ -2,18 +2,20 @@
 ## Project Title
 
 A Web "EducationToEducate" is a plateform which is based on the providing the free learning or teaching to access anyone.
+
+
 ## Description
 That Web, "EducationToEducate" is creating for the allocating the free learning facilities.EducationToEducate is free learning plateform where any person which want to learn coding, clear the university exams, crack any kinds of Competion Exams , and also provides much more facilities...
-## Demo
 
-Insert gif or link to demo
+## Demo
+https://nbdqo1s9jfshograixgx7w.on.drv.tw/EducationRelateWeb/
 
 ## Color Reference
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Another Primary Color| ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Primary Color |  #800080|
+| Another Primary Color|  #C1A7C1 |
 
 
 ## Deployment
@@ -30,8 +32,6 @@ Insert gif or link to demo
 **Client:** HTML, CSS, JavaScript
 
 
-
-
 ## Authors
 
-- Nik Furi[]
+- Nik Furi['https://github.com/Nik4Furi']
